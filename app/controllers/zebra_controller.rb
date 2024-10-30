@@ -1,6 +1,6 @@
 class ZebraController < ApplicationController
   def giraffe
-    @random_move = ["rock", "paper", "scissors"].sample
+    @comp_move = ["rock", "paper", "scissors"].sample
     
     if @comp_move == "rock"
       @outcome = "tied"
@@ -14,7 +14,7 @@ class ZebraController < ApplicationController
   end
 
   def elephant
-    @random_move = ["rock", "paper", "scissors"].sample
+    @comp_move = ["rock", "paper", "scissors"].sample
     
     if @comp_move == "rock"
       @outcome = "won"
@@ -28,7 +28,7 @@ class ZebraController < ApplicationController
   end
 
   def lion
-    @random_move = ["rock", "paper", "scissors"].sample
+    @comp_move = ["rock", "paper", "scissors"].sample
     
     if @comp_move == "rock"
       @outcome = "lost"

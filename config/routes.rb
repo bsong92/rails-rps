@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get("/paper", { :controller => "zebra", :action => "elephant" })
 
   get("/scissors", { :controller => "zebra", :action => "lion" })
+
+  get("/", { :controller => "zebra", :action => "rules" })
 end
